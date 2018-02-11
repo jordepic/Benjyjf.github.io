@@ -1,18 +1,20 @@
-body {
+body 
+{
    background-color: #e4e814;
    background-size: cover;
    font-smoothing: antialiased;
    text-align: center;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 1.5s; /* Firefox < 16 */
-    -ms-animation: fadein 1.5s; /* Internet Explorer */
+   -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 1.5s; /* Firefox < 16 */
+   -ms-animation: fadein 1.5s; /* Internet Explorer */
    -o-animation: fadein 1.5s; /* Opera < 12.1 */
     animation: fadein 1.5s;
 }
 
-@keyframes fadein {
+@keyframes fadein 
+{
     from { opacity: 0; transform: translateY(10em); }
     to   { opacity: 1; transform: translateY(0em);}
 }
@@ -27,8 +29,7 @@ body {
 @-webkit-keyframes fadein {
     from { opacity: 0; transform: translateY(10em); }
     to   { opacity: 1; transform: translateY(0em);}
-}
-
+} 
 /* Internet Explorer */
 @-ms-keyframes fadein {
     from { opacity: 0; transform: translateY(10em); }
@@ -41,27 +42,13 @@ body {
     to   { opacity: 1; transform: translateY(0em);}
 }
 
-#prof {
-   height: 12em;
-   width: 12em;
-   margin-top: 5%;
-   border-radius: 50%;
-   border: .8em solid white;
-}
-
-#name {
-   color: white;
-   position: relative;
-   font-family: Futura, Helvetica, sans-serif;
-   font-size: 50px;
-   margin-top: 3%;
-}
-
-.bold {
+.bold 
+{
    font-family: Futura, Helvetica, sans-serif;
 }
 
-#bio {
+#bio 
+{
    line-height: 25px;
    color: white;
    margin-top: 2%;
@@ -70,11 +57,13 @@ body {
    font-size: 23px;
 }
 
-a:visited {
+a:visited 
+{
    color: #ddd;
 }
 
-img {
+img 
+{
    -webkit-transition: -webkit-transform 0.2s;
    -moz-transition: -moz-transform 0.2s;
    -o-transition: -o-transform 0.2s;
@@ -83,7 +72,8 @@ img {
    cursor: pointer;
 }
 
-img:hover {
+img:hover 
+{
    -webkit-transform: scale(1.1);
    -moz-transform: scale(1.1);
    -o-transform: scale(1.1);
@@ -91,10 +81,11 @@ img:hover {
    transform: scale(1.1)
 }
 
-a {
+a 
+{
    text-decoration: none;
    color: blue;
-   font-size: 30px;
+   font-size: 20px;
    position: relative;
    margin-top: 0%;
 
@@ -107,7 +98,8 @@ a {
    cursor: pointer;
 }
 
-a:hover {
+a:hover 
+{
    text-decoration: bold;
    color: red;
    -webkit-transform: scale(1.1);
