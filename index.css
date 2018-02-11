@@ -57,6 +57,16 @@ body
    font-size: 23px;
 }
 
+#name
+{
+   line-heigher 25px;
+   color: blue;
+   margin-top 2%;
+   position: center;
+   font-family: Futura, Helvetica, sans-serif;
+   font-size: 23px;
+}
+
 a:visited 
 {
    color: #59ffff;
