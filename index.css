@@ -73,12 +73,12 @@ body
 
 #name
 {
-   line-heigher 25px;
+   line-height: 1.6;
    color: blue;
    margin-top 2%;
    position: center;
    font-family: Courier;
-   font-size: 23px;
+   font-size: 35px;
 }
 
 a:visited 
