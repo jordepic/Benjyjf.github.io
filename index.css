@@ -64,6 +64,13 @@ body
    border-radius: 50%;
 }
 
+#miniprof
+{
+   width: 4em;
+   height: 4em;
+   border-radius: 50%;
+}
+
 #name
 {
    line-heigher 25px;
@@ -76,7 +83,7 @@ body
 
 a:visited 
 {
-   color: #59ffff;
+   color: #1a493b;
 }
 
 img 
